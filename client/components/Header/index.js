@@ -12,7 +12,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Todos</h1>
+        <h1>Book Bar</h1>
         <TodoTextInput
           newTodo
           onSave={::this.handleSave}
